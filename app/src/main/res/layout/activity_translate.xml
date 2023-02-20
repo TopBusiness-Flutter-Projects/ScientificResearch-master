@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+    <data>
+        <variable
+            name="event"
+            type="com.topbusiness.scientificresearch.userEventsListener.UserListener"/>
+
+    </data>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    tools:context="com.topbusiness.scientificresearch.activities.TranslateActivity"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/ko7ly"
+            app:contentInsetEnd="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/back"
+                    android:padding="12dp"
+                    android:clickable="true"
+                    android:onClick="@{event::onClickListener}"
+                    android:layout_alignParentLeft="true"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="@string/transl"
+                    />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <Button
+        android:id="@+id/freeTransBtn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/red_trans"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/free_trans"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingEnd="20dp"
+        android:onClick="@{event::onClickListener}"
+
+        tools:ignore="RtlCompat" />
+    <Button
+        android:id="@+id/paidTransBtn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/green_trans"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/paid_trans"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:onClick="@{event::onClickListener}"
+        android:layout_alignParentLeft="true"
+
+        />
+</LinearLayout>
+</ScrollView>
+</layout>

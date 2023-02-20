@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "302208162219",
+    "project_id": "scientificresearch-df094",
+    "storage_bucket": "scientificresearch-df094.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302208162219:android:5281ba2019f3eb179c1aee",
+        "android_client_info": {
+          "package_name": "com.topbusiness.scientificresearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302208162219-uj8uan3stthj7953hp9m13j04u85dh18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.topbusiness.scientificresearch",
+            "certificate_hash": "6d39e57f3c880ad5ec12fe731d3e4a908fca8758"
+          }
+        },
+        {
+          "client_id": "302208162219-pvvo2kg1j9fr3dn1mapl32vd9f6lcf97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMy_lZ2VaQPU_GpNMZJap6XB1WYzmKrGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302208162219-pvvo2kg1j9fr3dn1mapl32vd9f6lcf97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

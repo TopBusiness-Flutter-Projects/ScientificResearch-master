@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Researcher</string>
+    <string name="upload_file">Uploading file...</string>
+    <string name="close">close</string>
+    <string name="ser_not_av">This service is not available to visitors You must create an account and login</string>
+    <string name="file_uploaded">File uploaded successfully</string>
+    <string name="fail_try">Failed try again later</string>
+    <string name="choose_file">Please choose file</string>
+    <string name="Logout_">Logout ?</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+    <string name="logining">Login...</string>
+    <string name="enter_user_email">Enter user name or email</string>
+    <string name="enter_pass">Enter Password</string>
+    <string name="error_user_pass">username or password incorrect</string>
+    <string name="create_acc">Create an account...</string>
+    <string name="enter_first_last">Enter first and last name</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="inv_email">Invalid email address</string>
+    <string name="enter_phone">Enter phone number</string>
+    <string name="inv_phone">Invalid phone number</string>
+    <string name="enter_country">Enter Country</string>
+    <string name="enter_orgn">Enter organization</string>
+    <string name="enter_spec">Enter specialization</string>
+    <string name="enter_username">Enter username</string>
+    <string name="book_course">booking course...</string>
+    <string name="netconn">Check network connection</string>
+    <string name="course_booked">course booked successfully</string>
+    <string name="course_booked_later">the course was previously booked</string>
+    <string name="morg_eq">Morgan Equation</string>
+    <string name="other">Other</string>
+    <string name="choos_upload">Choose file to upload</string>
+    <string name="upl">Upload</string>
+    <string name="samples">Samples</string>
+    <string name="arbitration">Arbitration</string>
+    <string name="database">Libraries</string>
+    <string name="free_trans">Free Translation</string>
+    <string name="researc">Researcher</string>
+    <string name="trans">Translation</string>
+    <string name="traning">Training</string>
+    <string name="audit">Audit</string>
+    <string name="documentation">APA documentation</string>
+    <string name="statistical_analyst">analysis</string>
+    <string name="serv">Consulting</string>
+    <string name="quotation">citation</string>
+    <string name="user_email">username or email</string>
+    <string name="pass">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="skip">Skip</string>
+    <string name="new_account">Create new Account</string>
+    <string name="sample_size">Enter sample size in decimal</string>
+    <string name="result">Result</string>
+    <string name="fir_las">First and last name</string>
+    <string name="email_add">E-mail</string>
+    <string name="country">Country</string>
+    <string name="orgn">Organization</string>
+    <string name="spec">Specialization</string>
+    <string name="username">Username</string>
+    <string name="cre_acc">Sign up</string>
+    <string name="paid_trans">Paid translation</string>
+    <string name="since">Since</string>
+    <string name="duration">Duration</string>
+    <string name="att_num">Number of Attendees</string>
+    <string name="book_cost">Booking cost</string>
+    <string name="details">Details :</string>
+    <string name="book">Book</string>
+    <string name="training_consulting">Training and Consulting</string>
+    <string name="logout">Logout</string>
+    <string name="phone">Phone</string>
+    <string name="paid_translation">Paid Translation</string>
+    <string name="details_">Details</string>
+    <string name="more">More</string>
+    <string name="acc_name">Account name</string>
+    <string name="acc_id">Account number</string>
+    <string name="mname">Radi bin Moheisen Al Shammari</string>
+    <string name="bank">Bank</string>
+    <string name="rajhi">Al Rajhi Bank</string>
+    <string name="ch_file">Choose Word File</string>
+    <string name="home">Researcher</string>
+    <string name="logOut">Logout</string>
+    <string name="c_file">Choose file</string>
+    <string name="Other_libs">Other Libraries</string>
+    <string name="consulting">Consulting</string>
+    <string name="vid">Videos</string>
+    <string name="rcov_pass_msg">Recover account.We will send you a link to change your password</string>
+    <string name="email">Email address</string>
+    <string name="reset_password">Reset password</string>
+    <string name="email_req">Email is required</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="choose_plan_file">Choose plan file</string>
+    <string name="choose_data_file">Choose data file</string>
+    <string name="doc">Documentation</string>
+    <string name="review_ref">Review references only</string>
+    <string name="wrt_ref">Write references in an APA</string>
+    <string name="ch_file_type">Choose file type</string>
+    <string name="review_plan_research">Review plan research</string>
+    <string name="rev_ent_search">Review the entire search</string>
+    <string name="research_consulting">Research Consulting</string>
+    <string name="format_search">Format search</string>
+    <string name="plz_inst_wa">Plz install whatsapp</string>
+    <string name="something">Error : something went haywire try again later</string>
+    <string name="no_not">No notifications to display</string>
+    <string name="logning_out">Logging out...</string>
+    <string name="wait">Wait...</string>
+    <string name="ok2">OK</string>
+    <string name="transl">Translation</string>
+    <string name="citation">citation</string>
+    <string name="mail_not_reg">Your email is not registered</string>
+    <string name="ch_xls_file">Choose excel file</string>
+    <string name="libs">Libraries</string>
+    <string name="references">References</string>
+    <string name="search_title">Search title</string>
+    <string name="search_details">Search details</string>
+    <string name="send">Send</string>
+    <string name="field_required">Field required</string>
+    <string name="Choose_language_search">Choose language search</string>
+
+    <array name="user_type">
+        <item>statistical analyst</item>
+        <item>researcher</item>
+        <item>arbitrator</item>
+        <item>Checker</item>
+
+    </array>
+
+    <array name="type">
+        <item>doctor</item>
+        <item>teaching assistant</item>
+        <item>lecturer</item>
+        <item>professor</item>
+        <item>assistant professor</item>
+        <item>Co-professor</item>
+
+    </array>
+
+    <array name="lang">
+        <item>Choose language</item>
+
+        <item>عربي</item>
+        <item>English</item>
+
+
+    </array>
+</resources>

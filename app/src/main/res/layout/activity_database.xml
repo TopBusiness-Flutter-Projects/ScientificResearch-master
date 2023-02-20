@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="event"
+            type="com.topbusiness.scientificresearch.userEventsListener.UserListener"/>
+    </data>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context="com.topbusiness.scientificresearch.activities.EfadaOrderActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/ko7ly"
+                app:contentInsetEnd="0dp"
+                app:contentInsetRight="0dp"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="56dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/back"
+                        android:padding="12dp"
+                        android:clickable="true"
+                        android:onClick="@{event::onClickListener}"
+                        android:layout_alignParentLeft="true"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:text="@string/database"
+                        />
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="2"
+                android:layout_gravity="center"
+
+                >
+                <Button
+                    android:id="@+id/other_library"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lib_btn_bg"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:text="@string/libs"
+                    android:onClick="@{event::onClickListener}"
+
+                    />
+                <Button
+                    android:id="@+id/btn_reference"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lib_btn_bg"
+                    android:text="@string/references"
+                    android:onClick="@{event::onClickListener}"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>
+</layout>

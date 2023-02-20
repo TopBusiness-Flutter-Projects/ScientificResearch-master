@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <data>
+        <variable
+            name="event"
+            type="com.topbusiness.scientificresearch.userEventsListener.UserListener"/>
+    </data>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+       >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.topbusiness.scientificresearch.activities.ChooserActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/ko7ly"
+            app:contentInsetEnd="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:text="تسجيل دخول"
+                    />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/appBar"
+
+        >
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="180dp"
+            android:background="@color/yellow1"
+            android:layout_gravity="center"
+            />
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/ch_mo7kam"
+            android:rotation="45"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="محكم"
+                android:rotation="-45"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/yellow1"
+                android:textSize="12sp"
+                />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="130dp"
+        android:layout_below="@+id/appBar"
+
+        >
+        <View
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:background="@color/red1"
+            android:layout_gravity="center"
+            />
+        <FrameLayout
+            android:id="@+id/login"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/ch_login"
+            android:rotation="45"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="@{event::onClickListener}"
+            >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="تسجيل الدخول"
+                android:rotation="-45"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/red1"
+                android:textSize="12sp"
+                android:clickable="false"
+                android:longClickable="false"
+                />
+        </FrameLayout>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:background="@color/blue"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            />
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/ch_ba7eth"
+            android:rotation="45"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+
+            >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="باحث علمي"
+                android:rotation="-45"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:textSize="12sp"
+
+                />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/appBar"
+
+        >
+        <View
+            android:layout_width="2dp"
+            android:layout_height="180dp"
+            android:background="@color/green1"
+            android:layout_gravity="center"
+
+            />
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/ch_mo7alel"
+            android:rotation="45"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+
+            >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="محلل إحصائي"
+                android:rotation="-45"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/green1"
+
+                android:textSize="12sp"
+
+                />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
+</layout>

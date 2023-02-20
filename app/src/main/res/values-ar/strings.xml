@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">باحث</string>
+    <string name="upload_file">جار رفع الملف...</string>
+    <string name="close">إغلاق</string>
+    <string name="ser_not_av">هذه الخدمة غير متاحة للزائرين عليك بإنشاء حساب وتسجيل الدخول</string>
+    <string name="file_uploaded">تم رفع الملف بنجاح</string>
+    <string name="fail_try">فشل حاول مره أخرى لاحقا</string>
+    <string name="choose_file">إختر الملف</string>
+    <string name="Logout_">هل ترغب في تسجيل خروج ؟</string>
+    <string name="ok">نعم</string>
+    <string name="no">لا</string>
+    <string name="logining">جار تسجيل الدخول...</string>
+    <string name="enter_user_email">أدخل اسم المستخدم او البريد الالكتروني</string>
+    <string name="enter_pass">أدخل كلمة المرور</string>
+    <string name="error_user_pass">اسم المستخدم او كلمه المرور خطأ</string>
+    <string name="create_acc">جار إنشاء حساب جديد...</string>
+    <string name="enter_first_last">أدخل الاسم الاول والاخير</string>
+    <string name="enter_email">أدخل البريد الالكتروني</string>
+    <string name="inv_email">تحقق من البريد الالكتروني</string>
+    <string name="enter_phone">أدخل رقم الجوال</string>
+    <string name="inv_phone">تحقق من رقم الجوال</string>
+    <string name="enter_country">أدخل الدولة</string>
+    <string name="enter_orgn">أدخل إسم المؤسسة</string>
+    <string name="enter_spec">أدخل التخصص</string>
+    <string name="enter_username">أدخل إسم المستخدم</string>
+    <string name="book_course">جار حجز الكورس...</string>
+    <string name="netconn">خطأ في الاتصال تحقق من الاتصال بالانترنت</string>
+    <string name="course_booked">تم حجز الكورس بنجاح</string>
+    <string name="course_booked_later">هذا الكورس تم بالفعل حجزة مسبقا</string>
+    <string name="morg_eq">معادلة مورجان</string>
+    <string name="other">أخرى</string>
+    <string name="choos_upload">إضغط هنا لتحميل الملف</string>
+    <string name="upl">رفع</string>
+    <string name="samples">العينات</string>
+    <string name="arbitration">التحكيم</string>
+    <string name="database">مكتبات</string>
+    <string name="free_trans">ترجمة مجانية</string>
+    <string name="researc">باحث</string>
+    <string name="trans">ترجمة</string>
+    <string name="traning">تدريب</string>
+    <string name="audit">تدقيق</string>
+    <string name="documentation">التوثيق APA</string>
+    <string name="statistical_analyst">تحليل احصائي</string>
+    <string name="serv">إستشارات</string>
+    <string name="quotation">إقتباس</string>
+    <string name="user_email">إسم المستخدم أو البريد الالكتروني</string>
+    <string name="pass">كلمة المرور</string>
+    <string name="login_btn">تسجيل الدخول</string>
+    <string name="skip">تخطي</string>
+    <string name="new_account">جديد</string>
+    <string name="sample_size">أدخل حجم العينة بالارقام</string>
+    <string name="result">النتيجة</string>
+    <string name="fir_las">الاسم الاول والاخير</string>
+    <string name="email_add">البريد الإلكتروني</string>
+    <string name="country">الدولة</string>
+    <string name="orgn">المؤسسة</string>
+    <string name="spec">التخصص</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="cre_acc">إنشاء حساب</string>
+    <string name="paid_trans">ترجمة مدفوعة</string>
+    <string name="details">التفاصيل :</string>
+
+    <string name="since">منذ</string>
+    <string name="duration">المدة</string>
+
+    <string name="att_num">عدد الحضور</string>
+    <string name="book_cost">تكلفة الحجز</string>
+    <string name="book">حجز</string>
+    <string name="training_consulting">تدريب واستشارات</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="paid_translation">ترجمة مدفوعة</string>
+    <string name="details_">التفاصيل</string>
+    <string name="more">المزيد</string>
+    <string name="acc_name">اسم الحساب</string>
+    <string name="acc_id">رقم الحساب</string>
+    <string name="mname">راضي بن محيسن الشمري</string>
+    <string name="bank">البنك</string>
+    <string name="rajhi">الراحجي</string>
+    <string name="ch_file">قم بتحميل الملف بصيغه الوورد هنا</string>
+    <string name="home">باحث</string>
+    <string name="logOut">خروج</string>
+    <string name="c_file">إختر ملف</string>
+    <string name="Other_libs">مكتبات اخرى</string>
+    <string name="consulting">إستشارات</string>
+    <string name="vid">فيديوهات</string>
+    <string name="rcov_pass_msg">إسترداد حسابك .سيتم ارسال رسالة لك من خلال رابط سيتم ارسالة لك على البريد الالكتروني.</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="reset_password">إستعادة كلمة المرور</string>
+    <string name="email_req">البريد الالكتروني مطلوب</string>
+    <string name="forget_password">نسيت كلمة المرور ؟</string>
+    <string name="choose_plan_file">إختر ملف الخطة</string>
+    <string name="choose_data_file">إختر ملف البيانات</string>
+    <string name="doc">توثيق</string>
+    <string name="review_ref">مراجعة توثيق المراجع فقط</string>
+    <string name="wrt_ref">كتابة المراجع بطريقة APA</string>
+    <string name="ch_file_type">إختر نوع الملف</string>
+    <string name="review_plan_research">مراجعة خطة البحث</string>
+    <string name="rev_ent_search">مراجعة البحث كاملا</string>
+    <string name="research_consulting">استشارات بحثية</string>
+    <string name="format_search">تنسيق البحث</string>
+    <string name="plz_inst_wa">قم بتحميل تطبيق الواتس اب اولا</string>
+    <string name="something">خطأ حاول مرة اخرى لا حقا</string>
+    <string name="no_not">لا توجد إشعارات لعرضها</string>
+    <string name="logning_out">جار تسجيل الخروج...</string>
+    <string name="wait">إنتظر قليلا...</string>
+    <string name="ok2">حسنا</string>
+    <string name="transl">ترجمة</string>
+    <string name="citation">إقتباس</string>
+    <string name="mail_not_reg">هذا البريد لم يسجل به من قبل</string>
+    <string name="ch_xls_file">قم بتحميل ملف بصيغة إكسل</string>
+    <string name="libs">مكتبات</string>
+    <string name="references">طلب مراجع</string>
+    <string name="search_title">عنوان البحث</string>
+    <string name="search_details">نبذة عن البحث</string>
+    <string name="send">إرسال</string>
+    <string name="field_required">هذا الحقل مطلوب</string>
+    <string name="Choose_language_search">إختر لغة البحث</string>
+
+
+    <array name="user_type">
+        <item>محلل إحصائي</item>
+        <item>باحث علمي</item>
+        <item>محكم</item>
+        <item>مدقق</item>
+
+    </array>
+
+    <array name="type">
+        <item>دكتور</item>
+        <item>معيد</item>
+        <item>محاضر</item>
+        <item>استاذ</item>
+        <item>استاذ مساعد</item>
+        <item>استاذ مشارك</item>
+
+    </array>
+
+    <array name="lang">
+        <item>إختر لغة البحث</item>
+        <item>عربي</item>
+        <item>English</item>
+
+
+    </array>
+</resources>

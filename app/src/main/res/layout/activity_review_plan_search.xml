@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <data>
+        <variable
+            name="event"
+            type="com.topbusiness.scientificresearch.userEventsListener.UserListener"
+            />
+
+    </data>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:fillViewport="true"
+        tools:context="com.topbusiness.scientificresearch.activities.ControlActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                >
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/ko7ly"
+                    app:contentInsetEnd="0dp"
+                    app:contentInsetRight="0dp"
+                    app:contentInsetLeft="0dp"
+                    app:contentInsetStart="0dp"
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/back"
+                            android:layout_width="56dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/back"
+                            android:padding="12dp"
+                            android:clickable="true"
+                            android:onClick="@{event::onClickListener}"
+                            android:layout_alignParentLeft="true"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:text="@string/review_plan_research"
+                            />
+                    </RelativeLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <!--<ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/upload_td"
+                />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/appBar"
+                android:orientation="vertical"
+                >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="@string/ch_file"
+                    android:gravity="center"
+                    android:textStyle="bold"
+
+                    />
+
+                <Button
+                    android:id="@+id/ch_file"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/lib_btn_bg"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/c_file"
+                    android:onClick="@{event::onClickListener}"
+                    />
+                <TextView
+                    android:id="@+id/file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/ko7ly"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+
+                    />
+                <Button
+                    android:id="@+id/upload_btn"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_bg"
+                    android:layout_marginTop="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="@string/upl"
+                    android:gravity="center"
+                    android:onClick="@{event::onClickListener}"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="30dp"
+
+
+
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</layout>
+

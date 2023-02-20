@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="event"
+            type="com.topbusiness.scientificresearch.userEventsListener.UserListener"/>
+    </data>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    android:background="@color/ko7ly"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            android:padding="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="طريقك إلى البحث العلمي"
+
+
+            />-->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="60dp"
+        >
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:background="@drawable/login_ed_bg"
+            android:drawableStart="@drawable/user_name_dark"
+            android:drawablePadding="5dp"
+            tools:ignore="RtlCompat"
+            android:hint="@string/user_email"
+            android:gravity="center_vertical"
+
+            />
+
+
+        <EditText
+            android:id="@+id/user_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/pass"
+            android:textSize="15sp"
+            android:drawableStart="@drawable/user_pass_dark"
+            android:background="@drawable/login_ed_bg"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:id="@+id/tv_forget_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:text="@string/forget_password"
+            android:onClick="@{event::onClickListener}"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_ed_bg"
+            android:textColor="@color/ko7ly"
+            android:text="@string/login_btn"
+            android:textStyle="bold"
+            android:onClick="@{event::onClickListener}"
+
+            />
+
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/skip"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/skip"
+            android:textSize="18sp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="@{event::onClickListener}"
+
+            />
+        <TextView
+            android:id="@+id/create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/new_account"
+            android:textSize="18sp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="@{event::onClickListener}"
+
+            />
+    </RelativeLayout>
+
+</ScrollView>
+
+</layout>

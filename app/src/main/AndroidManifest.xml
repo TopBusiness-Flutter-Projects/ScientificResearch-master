@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.topbusiness.scientificresearch">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:icon="@mipmap/ic_launcher"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".notifications.MyFireBaseInstanceMessaging"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.ChooserActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.TrainingActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.TranslateActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.AenatActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.Mo3adlaActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.EfadaOrderActivity"
+            android:theme="@style/AppTheme"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.ControlActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.TadqeqActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.Ta7lelActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.TawtheeqActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".activities.DatabaseActivity"
+            android:exported="true"/>
+        <activity android:name=".activities.OtherWebViewActivity"
+            android:exported="true"/>
+        <activity android:name=".activities.FreeTranslation"
+            android:exported="true"
+            />
+        <activity
+            android:exported="true"
+            android:name=".activities.RegisterActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.CourseDetailsActivity"
+            android:exported="true"/>
+        <activity android:name=".activities.EqtbasActivity"
+            android:exported="true"/>
+        <activity android:name=".activities.OtherLibrariesActivity"
+            android:exported="true"/>
+        <activity android:name=".activities.ConsultingActivity"
+            android:exported="true"/>
+        <activity android:name=".activities.PaidTranslationActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".activities.ForgetPasswordActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:exported="true"/>
+        <activity android:name=".activities.ReviewPlanSearchActivity"
+            android:exported="true"/>
+        <activity android:name=".activities.ReviewFullSearchActivity"
+            android:exported="true"/>
+        <activity android:name=".activities.FormatSearchActivity"
+            android:exported="true"/>
+        <activity android:name=".activities.VideoViewActivity"
+            android:exported="true"/>
+        <activity android:name=".activities.ReferencesActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:exported="true"
+            ></activity>
+    </application>
+
+</manifest>
